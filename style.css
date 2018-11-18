@@ -1,0 +1,70 @@
+body
+{
+  margin: 0;
+  grid-template-rows: 1fr 30px;
+height: 100vh;
+display: grid;
+align-items: center;
+justify-items: center;
+font-family: arial;
+transition: 1s;
+
+}
+
+section
+{
+display: grid;
+justify-content: center;
+justify-items: center;
+text-align: center;
+font-size: 30px;
+grid-gap: 10px;
+}
+
+h1
+{
+  margin: 0;
+}
+
+p
+{
+  margin: 0;
+}
+
+
+#d
+{
+
+width: 100px;
+height: 100px;
+background-color: black;
+border: 1px solid;
+animation-name: c;
+animation-duration: 1s;
+
+transform-origin:bottom;
+animation-timing-function: ease-in;
+}
+
+@Keyframes c
+{
+
+
+
+100%
+{
+transform: scaley(0.5)
+}
+
+50%
+{
+transform: translatey(-100px);
+}
+
+
+0%
+{
+transform: scaley(0.5)
+}
+
+}
